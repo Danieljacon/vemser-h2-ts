@@ -1,11 +1,6 @@
 import React from "react";
 import "./styles.css";
-
-type TBanner = {
-  title: string;
-  description: string;
-  image: string;
-};
+import { TBanner } from "./types";
 
 export const Banner: React.FC<TBanner> = ({ title, description, image }) => {
   return (

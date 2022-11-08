@@ -1,11 +1,7 @@
 import React from "react";
 import { Link, useLocation, Location } from "react-router-dom";
+import { TMenuLink } from "./types";
 import "./style.css";
-
-type TMenuLink = {
-  to: string;
-  children: React.ReactNode;
-};
 
 export const MenuLink: React.FC<TMenuLink> = ({ to, children }) => {
   const location: Location = useLocation();

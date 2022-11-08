@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Banner } from "./components/Banner";
 import { Header } from "./components/Header";
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import imageReM from "./assets/rick-and-morty.webp";
 
 export const Router: React.FC = () => {
