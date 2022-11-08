@@ -1,0 +1,17 @@
+.menuLink {
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    transition: .2s ease-in-out;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.menuLink-active {
+    border: 2px solid var(--primary);
+    border-bottom: 5px solid var(--primary);
+    border-radius: 5px;
+    color: var(--primary);
+    background: var(--white);
+}
