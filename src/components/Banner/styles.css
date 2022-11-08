@@ -1,0 +1,37 @@
+.banner-container {
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border-radius: 0;
+}
+
+.banner-container>div {
+    width: 50%;
+    color: var(--bege);
+}
+
+.banner-container>div h1 {
+    font-size: 2.5625rem;
+}
+
+.banner-container>div p {
+    font-size: 1.3125rem;
+}
+
+.banner-container>img {
+    width: 45%;
+    border-radius: 15px;
+    background-color: var(--bege);
+}
+
+@media (max-width: 798px) {
+
+    .banner-container>div,
+    .banner-container>img {
+        width: 100%;
+    }
+}

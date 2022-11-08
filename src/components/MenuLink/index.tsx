@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
 import React from "react";
 import { Link, useLocation, Location } from "react-router-dom";
 import "./style.css";
