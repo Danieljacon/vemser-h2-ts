@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Banner } from "./components/Banner";
 import { Header } from "./components/Header";
 import { Home } from "./pages/Home/Home";
+import { Episode } from "./pages/Episode";
 import imageReM from "./assets/rick-and-morty.webp";
 
 export const Router: React.FC = () => {
@@ -16,7 +17,7 @@ export const Router: React.FC = () => {
       />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/episodes" element={<div>Episodes</div>} />
+        <Route path="/episodes" element={<Episode />} />
         <Route path="*" element={<div>Not Found</div>} />
       </Routes>
     </BrowserRouter>
